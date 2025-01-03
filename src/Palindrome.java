@@ -12,10 +12,11 @@ public class Palindrome {
     public static void main(String[] args) {
         Palindrome palindrome = new Palindrome();
         int num = 121;
-        System.out.println(num + " is Palindrome? " + palindrome.isPalindrome(num));
+        System.out.println(num + " Palindrome right ? " + palindrome.isPalindrome(num));
     }
 }
 
+
 //    121 : Inverse = 121
-//            12321 : Inverse = 12321
+//           777 : Inverse ->> 777 (same)
 //            444 : Inverse = 444

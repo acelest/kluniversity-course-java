@@ -8,10 +8,11 @@ public class primeNumber {
         return true;
     }
 }
+
 public void main(String[] args) {
     primeNumber prime = new primeNumber();
     int num = -3;
-    System.out.println(num+ " is PRIME??? " + prime.isPrime(num));
+    System.out.println(num + " is PRIME??? " + prime.isPrime(num));
 }
 
 //prime number stricty sup than 1 and have 2 divisers
