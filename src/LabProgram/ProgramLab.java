@@ -2,7 +2,7 @@ package LabProgram;
 
 public class ProgramLab {
   public static void main(String[] args) {
-      int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+      int[] arr = {0,1, 2, 3, 4, 5, 6, 7, 8, 9};
       int max = Integer.MIN_VALUE;
       int min = Integer.MAX_VALUE;
       // sum and count
@@ -35,6 +35,6 @@ public class ProgramLab {
       double average = (double) sum / count;
       System.out.println("Max value: " + max);
       System.out.println("Min value:" + min);
-    //   System.out.println("Average excluding the largest and smallest values: " + average);
+      System.out.println("Average excluding the largest and smallest values: " + average);
   }
 }
