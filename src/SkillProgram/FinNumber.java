@@ -7,6 +7,7 @@ public class FinNumber {
     // Méthode pour trouver le plus petit et le plus grand nombre
     public static void findMinMax(int[] numbers, int[] result) {
         int min = Integer.MAX_VALUE;
+
         int max = Integer.MIN_VALUE;
 
         for (int num : numbers) {
@@ -18,7 +19,6 @@ public class FinNumber {
             }
         }
 
-        // Stock
         result[0] = min; // Smallest
         result[1] = max; // Biggest
     }
@@ -26,7 +26,7 @@ public class FinNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the number of elements:");
+        System.out.println("ENTER THE NUMBER OF ELEMENTS");
         int n = sc.nextInt();
 
         int[] numbers = new int[n];
