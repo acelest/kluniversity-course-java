@@ -111,7 +111,6 @@ public class ReservationSystem {
         String cancelResult = system.cancelReservation("Flight 2020 - Angers To Paris", "Hotel 2020 - Paris");
         System.out.println("\n" + cancelResult);
 
-        // List reservations after cancellation
         System.out.println("\nReservations after cancellation:");
         system.listReservations();
     }
